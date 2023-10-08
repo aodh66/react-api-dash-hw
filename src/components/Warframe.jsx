@@ -12,10 +12,6 @@ function Warframe() {
     const [orb, setOrb] = useState({ state: 'Heat Level', shortString: 'Time till change' });
     const [cambion, setCambion] = useState({ state: 'Cycle State', timeLeft: 'Time till change' });
   
-//     function warframeClick() {
-// warframeCall()
-//     }
-  
     async function warframeCall() {
         try {
             const apiCall = await fetch(endpointArbi);
@@ -70,11 +66,8 @@ function Warframe() {
           } catch (err) {
             console.log(err);
           }
-  
-
-
-    
         }
+
         return (
             <div className="column-section warframe-section">
             <div className="section-title">Warframe</div>
