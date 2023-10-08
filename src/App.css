@@ -1,0 +1,72 @@
+#root {
+  max-width: 1280px;
+  min-width: 100%;
+  /* margin: 0 auto; */
+  /* padding: 2rem; */
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: hsl(202, 100%, 50%);
+  box-shadow: 2px 0px 5px hsla(0, 0%, 0%, 1);
+}
+
+.top-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.two-column {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+}
+
+.column-section {
+  min-width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.warframe-subsection {
+  background-color: hsl(0, 1%, 27%);
+  padding: 0.25em;
+  border-radius: 15px;
+  margin-bottom: 0.5em;
+}
+
+.section-title {
+  font-size: 2em;
+  align-self: center;
+}
+
+.section-subtitle {
+  font-size: 1.5em;
+}
+
+.date {
+  font-size: 3em;
+  margin: 0.5em;
+}
+
+.section-data {
+  font-size: 1.25em;
+}
+
+.request-button {
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.25);
+  border-width: 1px;
+}
+
+main {
+  background-color: hsl(0, 1%, 24%);
+  min-height: 100vw;
+  color: hsl(0, 0%, 100%);
+  padding: 1em;
+}
